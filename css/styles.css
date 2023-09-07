@@ -68,7 +68,7 @@ img{
     display: inline-flex;
     align-items: center;
 }
-.logo {
+.logo{
     text-decoration: none;
     font-family: Raleway;
     font-size: 18px;
@@ -86,13 +86,13 @@ img{
 
 /* Header Nav Menu */
 
-.header-nav-menu {
+.header-nav-menu{
     list-style: none;
     display: inline-flex;
     align-items: flex-start;
     gap: 40px;
 }
-.header-nav-menu-item-link {
+.header-nav-menu-item-link{
     color: var(--navyblue);
     text-decoration: none;
     /* Body Medium */
@@ -102,13 +102,13 @@ img{
     letter-spacing: 0.32px;
 
 }
-.header-nav-menu-item-link:hover {
+.header-nav-menu-item-link:hover{
     color: var(--ocean);
 }
-.header-nav-menu-item-link:focus {
+.header-nav-menu-item-link:focus{
     color: var(--ocean);
 }
-.header-nav-menu-item-link:active {
+.header-nav-menu-item-link:active{
     color: var(--ocean);
 }
 .header-nav-menu-item.active{
@@ -276,7 +276,7 @@ img{
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-.team-list {
+.team-list{
     display: flex;
     gap: 24px;
     justify-content: space-between;
@@ -440,15 +440,13 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    row-gap: 48px;
     list-style: none;
 }
 .project-list-item{
     width: 370px;
     gap: 24px;
     background: var(--white);
-}
-.project-list-item:nth-child(-n+6){
-    margin-bottom: 48px;
 }
 .project-list-item-title{
     margin-bottom: 8px;
